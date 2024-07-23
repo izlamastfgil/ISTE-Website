@@ -24,8 +24,8 @@ function ExecutiveBoard() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-y-8 items-center justify-center mt-10">
-          <div data-aos='fade-up' data-aos-once='true' className=" gap-10 justify-center flex-wrap md:flex">
+        <div className="flex flex-col gap-y-8 items-center justify-center mt-24">
+          <div data-aos='fade-up' data-aos-once='true' className=" gap-10 justify-center flex-wrap md:flex" onContextMenu={(e) => e.preventDefault()}>
           {details.filter((_, i) => i >= 2 && i <= 12).map((val, i) => (
               <div key={i + 3}>
                 <Card details={val} />

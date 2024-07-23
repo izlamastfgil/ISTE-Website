@@ -38,7 +38,7 @@ function CorePage() {
             </div>
           </div>
         </div>
-      <div className="flex flex-col gap-y-24">
+      <div className="flex flex-col gap-y-24 mt-24">
         <div data-aos='fade-up' data-aos-once='true' className="opacity-0 gap-x-8 justify-center flex-wrap md:flex" onContextMenu={(e) => e.preventDefault()}>
         {details.filter((_, i) => i >= 24).map((val, i) => (
               <div key={i + 24}>

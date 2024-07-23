@@ -7,7 +7,7 @@ function PresidentCard({ details }) {
 
   return (
     <div className=" president_card font-['Roboto'] text-[#ACB8CB]">
-      <img src={details.dp} className="president_image"></img>
+      <img src={details.dp} draggable={false} className="president_image"></img>
       <div className=" flex flex-col gap-y-7 items-start">
         <div className="flex flex-col gap-y-6">
           <div className="flex flex-col w-[18.5rem] h-[3.5rem]">

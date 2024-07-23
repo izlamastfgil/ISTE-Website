@@ -4,7 +4,7 @@ import React, { useEffect } from 'react'
 function TeamFrontPage() {
 
   return (
-    <div id="frontPage" className='bg-black flex items-center justify-center m-auto min-w-[48rem] max-w-screen-2xl aspect-square text-[#ACB8CB] font-["Roboto"] text-center '>
+    <div id="frontPage" className='bg-black flex items-center justify-center min-w-[48rem] text-[#ACB8CB] font-["Roboto"] text-center mt-80 mb-72'>
       <div className='title opacity-0 flex flex-col items-center justify-center gap-y-6 min-w-[48rem] max-w-full'>
       <div className='font-semibold text-2xl'>
         ISTE

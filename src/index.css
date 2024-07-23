@@ -64,7 +64,7 @@ html {
   display: flex;
   flex-direction: column;
   flex: 1 0 max-content;
-  aspect-ratio: 1;
+  aspect-ratio: 21/9;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
@@ -72,7 +72,7 @@ html {
   column-gap: 5rem;
   width: clamp(48rem, 100%, 100vw);
   text-align: justify;
-  margin: auto;
+  margin: 0;
   /* height: 100vh; */
 }
 

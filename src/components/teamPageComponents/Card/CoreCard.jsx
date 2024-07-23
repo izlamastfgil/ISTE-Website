@@ -15,8 +15,8 @@ function CoreCard({details}) {
 
 
   return (
-    <div  className='flex flex-col items-center justify-between w-[19rem] py-[0.85rem] gap-y-6 font-["Roboto"] bg-black flex-wrap hover:bg-gray-700/20 hover:scale-[1.05] duration-300 hover:rounded-xl cursor-default'>
-      <img className='rounded-full w-[130px]' src={details?.dp}></img>
+    <div  className='flex flex-col items-center justify-between w-[20rem] py-[0.85rem] gap-y-6 font-["Roboto"] bg-black flex-wrap hover:bg-gray-700/20 hover:scale-[1.05] duration-300 hover:rounded-xl cursor-default'>
+      <img className='rounded-full w-[130px]' draggable={false} src={details?.dp}></img>
       <div className='flex flex-col justify-center items-center h-36 w-[19rem] gap-y-4'>
         <div className='flex flex-col justify-center items-center'>
           <div className='text-[#6C90C2]'>{details?.name}</div>

@@ -13,7 +13,7 @@ function Card({details}) {
 
   return (
     <div className='flex flex-col items-center pb-3 font-["Roboto"] max-w-[19rem] bg-black flex-wrap hover:bg-gray-700/20 hover:scale-[1.05] duration-300 hover:rounded-b-2xl'>
-      <img className='max-h-[19rem]' src={details.dp}></img>
+      <img className='max-h-[19rem]' draggable={false} src={details.dp}></img>
       <div className='flex flex-col justify-center items-center  h-36 w-[19rem] gap-y-4'>
         <div className='flex flex-col gap-y-2 justify-center items-center'>
           <div className='text-[#6C90C2] text-3xl'>{details.name}</div>

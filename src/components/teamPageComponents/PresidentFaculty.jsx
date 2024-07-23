@@ -20,7 +20,7 @@ function PresidentFaculty() {
             </div>
           </div>
         </div>
-      <div data-aos="fade-up" data-aos-once="true" className='president__cards mt-32'>
+      <div data-aos="fade-up" data-aos-once="true" className='president__cards mt-32' onContextMenu={(e) => e.preventDefault()}>
       <PresidentCard details={details[0]}/>
       <PresidentCard details={details[1]}/>
       </div>

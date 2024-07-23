@@ -20,7 +20,7 @@ function ExecutiveCommitee() {
           </div>
         </div>
         <div className="flex flex-col gap-y-8 items-center justify-center">
-          <div data-aos="fade-up" data-aos-once="true" className="gap-8 opacity-0 gap-x-8 justify-center flex-wrap md:flex">
+          <div data-aos="fade-up" data-aos-once="true" className="gap-8 opacity-0 gap-x-8 justify-center flex-wrap md:flex mt-24" onContextMenu={(e) => e.preventDefault()}>
           {details.filter((_, i) => i >= 13 && i <= 23).map((val, i) => (
               <div key={i + 13}>
                 <Card details={val} />
